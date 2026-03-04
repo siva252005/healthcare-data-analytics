@@ -114,7 +114,7 @@ healthcare-data-analytics/
 <li>Export cleaned dataset</li>
 </ul>
 
-<p><strong>Status:</strong> ⏳ <strong>Pending</strong></p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
