@@ -162,7 +162,7 @@ healthcare-data-analytics/
 <li>Treatment cost optimization visualizations</li>
 </ul>
 
-<p><strong>Status:</strong> ⏳ <strong>Pending</strong></p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
