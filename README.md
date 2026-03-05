@@ -146,7 +146,7 @@ healthcare-data-analytics/
 <li>Patient journey and stay duration analytics</li>
 </ul>
 
-<p><strong>Status:</strong> ⏳ <strong>Pending</strong></p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
