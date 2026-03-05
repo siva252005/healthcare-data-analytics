@@ -184,35 +184,35 @@ healthcare-data-analytics/
 <td>Dataset Collection</td>
 <td>Kaggle / Healthcare APIs</td>
 <td>Raw dataset + KPI definitions</td>
-<td>⏳ Pending</td>
+<td>✅ Completed</td>
 </tr>
 <tr>
 <td><strong>Phase 2</strong></td>
 <td>Data Cleaning</td>
 <td>Python, Pandas, NumPy</td>
 <td>Cleaned dataset (.csv)</td>
-<td>⏳ Pending</td>
+<td>✅ Completed</td>
 </tr>
 <tr>
 <td><strong>Phase 3</strong></td>
 <td>Exploratory Analysis</td>
 <td>Python, Matplotlib, Seaborn</td>
 <td>EDA notebook + insights</td>
-<td>⏳ Pending</td>
+<td>✅ Completed</td>
 </tr>
 <tr>
 <td><strong>Phase 4</strong></td>
 <td>Database Analytics</td>
 <td>SQL, PostgreSQL/MySQL</td>
 <td>Database + SQL queries</td>
-<td>⏳ Pending</td>
+<td>✅ Completed</td>
 </tr>
 <tr>
 <td><strong>Phase 5</strong></td>
 <td>Dashboard Visualization</td>
 <td>Power BI</td>
 <td>Interactive dashboard (.pbix)</td>
-<td>⏳ Pending</td>
+<td>✅ Completed</td>
 </tr>
 </tbody>
 </table>
