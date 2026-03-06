@@ -6,14 +6,18 @@
 </head>
 <body>
 
-<h1>🩺 Healthcare Data Analytics & Hospital Performance Dashboard</h1>
+<h1>🩺 Healthcare Data Analytics & Insurance Cost Dashboard</h1>
 
 <p>
-This project builds a complete <strong>healthcare analytics system</strong> to analyze hospital data, patient demographics, treatment costs, and departmental performance. 
+This project analyzes healthcare insurance data to understand the factors influencing medical costs.
 </p>
 
 <p>
-Using <strong>Python, SQL, and Power BI</strong>, the system transforms raw healthcare datasets into actionable insights through a structured workflow: data collection → cleaning → analysis → database analytics → interactive dashboard visualization.
+Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw healthcare datasets into actionable insights through a structured analytics workflow:
+</p>
+
+<p>
+Data Collection → Data Cleaning → Feature Engineering → Exploratory Data Analysis → SQL Analytics → Power BI Dashboard
 </p>
 
 <hr>
@@ -21,21 +25,45 @@ Using <strong>Python, SQL, and Power BI</strong>, the system transforms raw heal
 <h2>📊 Project Status</h2>
 
 <p>
-⚠️ <strong>Currently in INITIAL STAGE</strong> - All phases planned for step-by-step implementation.
+✅ <strong>Project Completed</strong>
 </p>
 
 <hr>
 
-<h2>✨ Key Highlights (Planned)</h2>
+<h2>📊 Dashboard Preview</h2>
+
+<p><strong>Healthcare Cost Dashboard</strong></p>
+
+<img src="images/dashboard_overview1.png" width="800">
+
+<br><br>
+
+<img src="images/dashboard_overview2.png" width="800">
+
+<hr>
+
+<h2>📈 Key Insights</h2>
 
 <ul>
-<li><strong>Data Cleaning:</strong> Python Pandas/NumPy for healthcare data preprocessing</li>
-<li><strong>EDA:</strong> Patient demographics, disease patterns, treatment costs</li>
-<li><strong>Feature Engineering:</strong> Patient length of stay, admission trends</li>
-<li><strong>SQL Analytics:</strong> Department revenue, patient stay analysis</li>
-<li><strong>Power BI Dashboard:</strong> Interactive hospital performance visualization</li>
-<li><strong>KPIs:</strong> Department-wise revenue, admission trends, cost analysis</li>
-<li><strong>Optional:</strong> ML model for treatment cost prediction</li>
+<li>Smoking significantly increases healthcare insurance charges.</li>
+<li>Patients categorized as <strong>High Risk</strong> have the highest treatment costs.</li>
+<li>The <strong>Obese BMI category</strong> shows higher average medical expenses.</li>
+<li><strong>Senior patients</strong> tend to have higher treatment costs.</li>
+<li>The <strong>Southeast region</strong> generates the highest healthcare revenue.</li>
+</ul>
+
+<hr>
+
+<h2>🛠 Skills Demonstrated</h2>
+
+<ul>
+<li>Data Cleaning using <strong>Python (Pandas)</strong></li>
+<li>Feature Engineering</li>
+<li>Exploratory Data Analysis (EDA)</li>
+<li>Data Visualization using <strong>Matplotlib</strong></li>
+<li>SQL Analytics using <strong>MySQL</strong></li>
+<li>Business Insight Generation</li>
+<li>Interactive Dashboard Development using <strong>Power BI</strong></li>
 </ul>
 
 <hr>
@@ -49,9 +77,9 @@ healthcare-data-analytics/
 │
 ├── data/
 │   ├── raw/
-│   │   └── healthcare_dataset.csv
+│   │   └── healthcare_raw.csv
 │   └── processed/
-│       └── cleaned_healthcare_data.csv
+│       └── healthcare_cleaned.csv
 │
 ├── notebooks/
 │   └── healthcare_analysis.ipynb
@@ -69,13 +97,9 @@ healthcare-data-analytics/
 ├── dashboard/
 │   └── healthcare_dashboard.pbix
 │
-├── models/
-│   └── cost_prediction_model.pkl
-│
 ├── images/
-│   ├── dashboard_overview.png
-│   ├── patient_analysis.png
-│   └── admission_trend.png
+│   ├── dashboard_overview1.png
+│   └── dashboard_overview2.png
 │
 └── docs/
     ├── project_overview.md
@@ -87,267 +111,173 @@ healthcare-data-analytics/
 
 <h2>🚀 Implementation Phases</h2>
 
-<h3>🟩 PHASE 1 – Dataset Collection</h3>
+<h3>🟩 Phase 1 – Dataset Collection</h3>
 
-<p><strong>Objective:</strong> Acquire and understand healthcare dataset structure.</p>
-
-<ul>
-<li>Select comprehensive healthcare dataset (Kaggle/open-source)</li>
-<li>Analyze dataset attributes and structure</li>
-<li>Identify missing values and data quality issues</li>
-<li>Define key healthcare KPIs and metrics</li>
-</ul>
-
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
-
-<hr>
-
-<h3>🟨 PHASE 2 – Data Cleaning & Preprocessing</h3>
-
-<p><strong>Objective:</strong> Transform raw data into analysis-ready format.</p>
+<p><strong>Objective:</strong> Understand healthcare dataset structure.</p>
 
 <ul>
-<li>Handle missing values and outliers</li>
-<li>Remove duplicate patient records</li>
-<li>Date parsing and standardization</li>
-<li>Feature engineering (length of stay, age groups)</li>
-<li>Export cleaned dataset</li>
+<li>Dataset obtained from Kaggle</li>
+<li>Dataset structure analysis</li>
+<li>Identification of missing values</li>
+<li>Definition of healthcare KPIs</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h3>🟦 PHASE 3 – Exploratory Data Analysis (EDA)</h3>
+<h3>🟨 Phase 2 – Data Cleaning & Preprocessing</h3>
 
-<p><strong>Objective:</strong> Uncover healthcare insights through statistical analysis.</p>
+<p><strong>Objective:</strong> Prepare dataset for analysis.</p>
 
 <ul>
-<li>Patient demographics analysis (age, gender, location)</li>
-<li>Disease distribution and prevalence patterns</li>
-<li>Department-wise patient volume</li>
-<li>Treatment cost distribution analysis</li>
-<li>Hospital admission/readmission trends</li>
+<li>Checked missing values</li>
+<li>Removed duplicate records</li>
+<li>Verified dataset structure</li>
+<li>Exported cleaned dataset</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h3>🟧 PHASE 4 – SQL Database & Analytics</h3>
+<h3>🟦 Phase 3 – Feature Engineering & Exploratory Data Analysis</h3>
 
-<p><strong>Objective:</strong> Build scalable database analytics layer.</p>
+<p><strong>Objective:</strong> Discover patterns and insights.</p>
 
 <ul>
-<li>Create healthcare database schema</li>
-<li>Load cleaned data into SQL tables</li>
-<li>Complex SQL queries for business insights</li>
-<li>Department revenue and profitability analysis</li>
-<li>Patient journey and stay duration analytics</li>
+<li>Create Age Groups (Young, Middle Age, Senior)</li>
+<li>Create BMI Categories</li>
+<li>Create Risk Level segmentation</li>
+<li>Analyze cost distribution</li>
+<li>Smoking vs non-smoking cost comparison</li>
+<li>BMI impact analysis</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h3>🟥 PHASE 5 – Power BI Dashboard</h3>
+<h3>🟧 Phase 4 – SQL Analytics</h3>
 
-<p><strong>Objective:</strong> Create interactive hospital performance dashboard.</p>
+<p><strong>Objective:</strong> Generate business insights using SQL.</p>
 
 <ul>
-<li>Hospital KPIs (revenue, occupancy, patient satisfaction)</li>
-<li>Department performance scorecards</li>
-<li>Patient demographic slicers and filters</li>
-<li>Admission trends and seasonality analysis</li>
-<li>Treatment cost optimization visualizations</li>
+<li>Total healthcare revenue analysis</li>
+<li>Average treatment cost</li>
+<li>Region-wise revenue analysis</li>
+<li>Risk level cost comparison</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h2>📋 Project Summary Table</h2>
+<h3>🟥 Phase 5 – Power BI Dashboard</h3>
 
-<table border="1" cellpadding="8" cellspacing="0">
-<thead>
-<tr>
-<th>Phase</th>
-<th>Focus Area</th>
-<th>Tools/Technologies</th>
-<th>Deliverables</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Phase 1</strong></td>
-<td>Dataset Collection</td>
-<td>Kaggle / Healthcare APIs</td>
-<td>Raw dataset + KPI definitions</td>
-<td>✅ Completed</td>
-</tr>
-<tr>
-<td><strong>Phase 2</strong></td>
-<td>Data Cleaning</td>
-<td>Python, Pandas, NumPy</td>
-<td>Cleaned dataset (.csv)</td>
-<td>✅ Completed</td>
-</tr>
-<tr>
-<td><strong>Phase 3</strong></td>
-<td>Exploratory Analysis</td>
-<td>Python, Matplotlib, Seaborn</td>
-<td>EDA notebook + insights</td>
-<td>✅ Completed</td>
-</tr>
-<tr>
-<td><strong>Phase 4</strong></td>
-<td>Database Analytics</td>
-<td>SQL, PostgreSQL/MySQL</td>
-<td>Database + SQL queries</td>
-<td>✅ Completed</td>
-</tr>
-<tr>
-<td><strong>Phase 5</strong></td>
-<td>Dashboard Visualization</td>
-<td>Power BI</td>
-<td>Interactive dashboard (.pbix)</td>
-<td>✅ Completed</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Objective:</strong> Build an interactive dashboard.</p>
+
+<ul>
+<li>Total revenue KPI</li>
+<li>Average treatment cost KPI</li>
+<li>Smoking cost comparison</li>
+<li>Age group analysis</li>
+<li>BMI category analysis</li>
+<li>Region-wise revenue visualization</li>
+<li>Risk level segmentation</li>
+</ul>
+
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h2>🛠️ Technical Stack</h2>
+<h2>🛠 Technical Stack</h2>
 
 <table border="1" cellpadding="8" cellspacing="0">
 <thead>
 <tr>
 <th>Category</th>
-<th>Tools & Technologies</th>
+<th>Tools</th>
 </tr>
 </thead>
+
 <tbody>
+
 <tr>
 <td>Data Processing</td>
-<td>Python 3.9+, Pandas, NumPy</td>
+<td>Python, Pandas, NumPy</td>
 </tr>
+
 <tr>
 <td>Visualization</td>
-<td>Matplotlib, Seaborn, Power BI</td>
+<td>Matplotlib, Power BI</td>
 </tr>
+
 <tr>
 <td>Database</td>
-<td>SQL, PostgreSQL/MySQL</td>
+<td>MySQL</td>
 </tr>
+
 <tr>
 <td>Analysis</td>
-<td>Jupyter Notebooks</td>
+<td>Jupyter Notebook</td>
 </tr>
-<tr>
-<td>ML (Optional)</td>
-<td>Scikit-learn, Joblib</td>
-</tr>
+
 <tr>
 <td>Version Control</td>
 <td>Git, GitHub</td>
 </tr>
+
 </tbody>
 </table>
-
-<hr>
-
-<h2>📈 Planned Analytics & KPIs</h2>
-
-<ul>
-<li><strong>Revenue Analytics:</strong> Department-wise revenue, profitability ratios</li>
-<li><strong>Patient Metrics:</strong> Admission rates, length of stay, readmission rates</li>
-<li><strong>Cost Analysis:</strong> Treatment cost distribution, cost per patient</li>
-<li><strong>Demographics:</strong> Age group analysis, gender distribution</li>
-<li><strong>Trends:</strong> Seasonal admission patterns, peak treatment periods</li>
-</ul>
 
 <hr>
 
 <h2>🎯 Workflow Pipeline</h2>
 
 <pre>
-Healthcare Dataset (.csv)
+Healthcare Dataset (CSV)
         ↓
-┌─────────────────┐
-│  Data Cleaning  │ Python/Pandas
-│  (Phase 2)      │
-└─────────────────┘
+Data Cleaning (Python / Pandas)
         ↓
-┌─────────────────┐
-│   Exploratory   │ Jupyter Notebook
-│   Analysis      │ Matplotlib/Seaborn
-│   (Phase 3)     │
-└─────────────────┘
+Exploratory Data Analysis (Matplotlib)
         ↓
-┌─────────────────┐
-│ SQL Database    │ PostgreSQL/MySQL
-│ Analytics       │ Complex Queries
-│   (Phase 4)     │
-└─────────────────┘
+SQL Analytics (MySQL)
         ↓
-┌─────────────────┐
-│ Power BI        │ Interactive Dashboard
-│ Dashboard       │ KPIs + Visualizations
-│   (Phase 5)     │
-└─────────────────┘
+Power BI Dashboard
         ↓
-🏥 Hospital Decision Insights
+Healthcare Business Insights
 </pre>
 
 <hr>
 
-<h2>💼 Interview Talking Points</h2>
+<h2>💼 Interview Talking Point</h2>
 
 <p>
-<strong>"Built a comprehensive healthcare analytics pipeline from raw data to interactive Power BI dashboard. Implemented data cleaning with Python/Pandas, SQL analytics for hospital KPIs, and created department-wise performance visualizations including revenue analysis, patient demographics, and treatment cost optimization."</strong>
+<strong>
+Built a healthcare data analytics pipeline from raw data to an interactive Power BI dashboard. Implemented data cleaning with Python/Pandas, performed exploratory analysis, created SQL queries for healthcare insights, and developed dashboard visualizations showing cost differences across smoking status, BMI categories, age groups, and regions.
+</strong>
 </p>
 
 <hr>
 
-<h2>✅ Success Criteria</h2>
-
-<ul>
-<li>✅ Clean, analysis-ready healthcare dataset</li>
-<li>✅ Comprehensive EDA with key healthcare insights</li>
-<li>✅ SQL database with complex analytical queries</li>
-<li>✅ Interactive Power BI dashboard with slicers/filters</li>
-<li>✅ Hospital KPIs: revenue, occupancy, patient trends</li>
-<li>✅ Production-ready project structure</li>
-<li>✅ Interview-ready documentation and visualizations</li>
-</ul>
-
-<hr>
-
-<h2>🚀 Quick Start (After Phase 1)</h2>
+<h2>🚀 Quick Start</h2>
 
 <pre>
-# 1. Clone repository
 git clone healthcare-data-analytics
 
-# 2. Install dependencies
 pip install pandas numpy matplotlib seaborn
 
-# 3. Run data cleaning
 python scripts/data_cleaning.py
 
-# 4. Launch Jupyter for EDA
 jupyter notebook notebooks/healthcare_analysis.ipynb
 
-# 5. Open Power BI dashboard
-dashboard/healthcare_dashboard.pbix
+Open dashboard/healthcare_dashboard.pbix
 </pre>
 
 <hr>
 
-<p><strong>— Healthcare Data Analytics Project (In Development) 🩺📊</strong></p>
+<p><strong>Healthcare Data Analytics Project 🩺📊</strong></p>
 
 </body>
 </html>
-
