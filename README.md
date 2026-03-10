@@ -17,7 +17,7 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 </p>
 
 <p>
-Data Collection → Data Cleaning → Feature Engineering → Exploratory Data Analysis → SQL Analytics → Power BI Dashboard
+<strong>Data Collection → Data Cleaning → Feature Engineering → Exploratory Data Analysis → SQL Analytics → Power BI Dashboard</strong>
 </p>
 
 <hr>
@@ -30,26 +30,34 @@ Data Collection → Data Cleaning → Feature Engineering → Exploratory Data A
 
 <hr>
 
+<h2>🚀 How to Run this Project</h2>
+
+<p>
+<a href="docs/how-to-run.html">📖 Complete Step-by-Step Guide</a>
+</p>
+
+<hr>
+
 <h2>📊 Dashboard Preview</h2>
 
 <p><strong>Healthcare Cost Dashboard</strong></p>
 
-<img src="images/dashboard_overview1.png" width="800">
+<img src="images/dashboard_overview1.png" width="800" alt="Dashboard 1">
 
 <br><br>
 
-<img src="images/dashboard_overview2.png" width="800">
+<img src="images/dashboard_overview2.png" width="800" alt="Dashboard 2">
 
 <hr>
 
 <h2>📈 Key Insights</h2>
 
 <ul>
-<li>Smoking significantly increases healthcare insurance charges.</li>
-<li>Patients categorized as <strong>High Risk</strong> have the highest treatment costs.</li>
-<li>The <strong>Obese BMI category</strong> shows higher average medical expenses.</li>
-<li><strong>Senior patients</strong> tend to have higher treatment costs.</li>
-<li>The <strong>Southeast region</strong> generates the highest healthcare revenue.</li>
+<li>Smoking significantly increases healthcare insurance charges</li>
+<li>Patients categorized as <strong>High Risk</strong> have the highest treatment costs</li>
+<li>The <strong>Obese BMI category</strong> shows higher average medical expenses</li>
+<li><strong>Senior patients</strong> tend to have higher treatment costs</li>
+<li>The <strong>Southeast region</strong> generates the highest healthcare revenue</li>
 </ul>
 
 <hr>
@@ -122,7 +130,7 @@ healthcare-data-analytics/
 <li>Definition of healthcare KPIs</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ Completed</p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
@@ -137,7 +145,7 @@ healthcare-data-analytics/
 <li>Exported cleaned dataset</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ Completed</p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
@@ -154,7 +162,7 @@ healthcare-data-analytics/
 <li>BMI impact analysis</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ Completed</p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
@@ -169,7 +177,7 @@ healthcare-data-analytics/
 <li>Risk level cost comparison</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ Completed</p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
@@ -187,7 +195,7 @@ healthcare-data-analytics/
 <li>Risk level segmentation</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ Completed</p>
+<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
 
 <hr>
 
@@ -200,34 +208,27 @@ healthcare-data-analytics/
 <th>Tools</th>
 </tr>
 </thead>
-
 <tbody>
-
 <tr>
 <td>Data Processing</td>
 <td>Python, Pandas, NumPy</td>
 </tr>
-
 <tr>
 <td>Visualization</td>
 <td>Matplotlib, Power BI</td>
 </tr>
-
 <tr>
 <td>Database</td>
 <td>MySQL</td>
 </tr>
-
 <tr>
 <td>Analysis</td>
 <td>Jupyter Notebook</td>
 </tr>
-
 <tr>
 <td>Version Control</td>
 <td>Git, GitHub</td>
 </tr>
-
 </tbody>
 </table>
 
@@ -258,22 +259,6 @@ Healthcare Business Insights
 Built a healthcare data analytics pipeline from raw data to an interactive Power BI dashboard. Implemented data cleaning with Python/Pandas, performed exploratory analysis, created SQL queries for healthcare insights, and developed dashboard visualizations showing cost differences across smoking status, BMI categories, age groups, and regions.
 </strong>
 </p>
-
-<hr>
-
-<h2>🚀 Quick Start</h2>
-
-<pre>
-git clone https://healthcare-data-analytics.git
-
-pip install pandas numpy matplotlib seaborn
-
-python scripts/data_cleaning.py
-python scripts/eda_analysis.py
-python scripts/feature_engineering.py
-
-Open dashboard/healthcare_dashboard.pbix
-</pre>
 
 <hr>
 
