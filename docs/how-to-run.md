@@ -6,75 +6,13 @@
 </head>
 <body>
 
-<h1>🚀 Healthcare Data Analytics Project - How to Run</h1>
-
-<hr>
-
-<h2>📋 Project Overview</h2>
-
-<p>
-This guide explains how to run the complete <strong>Healthcare Data Analytics</strong> project including data processing, EDA notebook, ML training, and Streamlit web app.
-</p>
-
-<hr>
-
-<h2>📊 Tools Used</h2>
-
-<ul>
-<li><strong>Python</strong> - Data processing & analysis</li>
-<li><strong>Pandas</strong> - Data manipulation</li>
-<li><strong>Matplotlib/Seaborn</strong> - Visualizations</li>
-<li><strong>Jupyter Notebook</strong> - EDA & exploration</li>
-<li><strong>Streamlit</strong> - Web application</li>
-<li><strong>Power BI</strong> - Interactive dashboard</li>
-</ul>
-
-<hr>
-
-<h2>🎯 Project Goals</h2>
-
-<ul>
-<li>Analyze patient demographics & medical patterns</li>
-<li>Study factors affecting insurance charges</li>
-<li>Build ML model for cost prediction</li>
-<li>Create interactive dashboard & web app</li>
-</ul>
-
-<hr>
-
-<h2>📂 Complete Project Structure</h2>
-
-<pre>
-healthcare-data-analytics/
-├── README.md
-├── healthcare_dashboard.pbix      ← Power BI Dashboard
-├── data/
-│   └── processed/
-│       └── healthcare_cleaned.csv ← Clean dataset
-├── notebooks/
-│   └── healthcare_analysis.ipynb  ← EDA Notebook
-├── scripts/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── eda_analysis.py
-│   └── train_model.py
-├── app/
-│   └── app.py                    ← Streamlit Web App
-├── models/
-│   └── cost_prediction_model.pkl
-└── docs/
-    ├── how-to-run.html           ← This guide
-</pre>
-
-<hr>
-
 <h2>🔢 Step-by-Step Execution</h2>
 
 <h3>1️⃣ Setup Environment</h3>
 
 <pre>
 # Clone repository (if using Git)
-git clone healthcare-data-analytics
+git clone https://github.com/siva252005/healthcare-data-analytics.git
 
 # Install dependencies
 pip install pandas matplotlib seaborn scikit-learn streamlit jupyter
@@ -98,23 +36,6 @@ python scripts/eda_analysis.py
 <pre>
 jupyter notebook notebooks/healthcare_analysis.ipynb
 </pre>
-
-<h3>4️⃣ Train ML Model</h3>
-
-<pre>
-python scripts/train_model.py
-</pre>
-
-<p><strong>Output:</strong> models/cost_prediction_model.pkl</p>
-
-<h3>5️⃣ Launch Streamlit Web App</h3>
-
-<pre>
-cd app/
-streamlit run app.py
-</pre>
-
-<p><strong>Access:</strong> http://localhost:8501</p>
 
 <h3>6️⃣ Open Power BI Dashboard</h3>
 
