@@ -33,7 +33,7 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 <h2>🚀 How to Run this Project</h2>
 
 <p>
-<a href="docs/how-to-run.html">📖 Complete Step-by-Step Guide</a>
+<a href="docs/how-to-run.md">📖 Complete Step-by-Step Guide</a>
 </p>
 
 <hr>
