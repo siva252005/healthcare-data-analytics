@@ -120,11 +120,7 @@ Raw Data (.csv)
      ↓
 3️⃣ notebooks/healthcare_analysis.ipynb ← EDA + Visuals
      ↓
-4️⃣ scripts/train_model.py
-     ↓ → models/cost_prediction_model.pkl
-5️⃣ app/app.py ← Streamlit Web App
-     ↓
-6️⃣ healthcare_dashboard.pbix ← Power BI Dashboard
+4️⃣ healthcare_dashboard.pbix ← Power BI Dashboard
 </pre>
 
 <hr>
@@ -138,9 +134,7 @@ Raw Data (.csv)
 <tbody>
 <tr><td>1. Data Pipeline</td><td>python scripts/*.py</td><td>Cleaned CSV data</td></tr>
 <tr><td>2. EDA Notebook</td><td>jupyter notebook</td><td>Visualizations + Insights</td></tr>
-<tr><td>3. ML Training</td><td>python scripts/train_model.py</td><td>cost_prediction_model.pkl</td></tr>
-<tr><td>4. Web App</td><td>streamlit run app/app.py</td><td>http://localhost:8501</td></tr>
-<tr><td>5. Dashboard</td><td>healthcare_dashboard.pbix</td><td>Interactive BI Dashboard</td></tr>
+<tr><td>3. Dashboard</td><td>healthcare_dashboard.pbix</td><td>Interactive BI Dashboard</td></tr>
 </tbody>
 </table>
 
@@ -162,8 +156,6 @@ Raw Data (.csv)
 <ul>
 <li><strong>Module not found:</strong> <code>pip install -r app/requirements.txt</code></li>
 <li><strong>Jupyter not opening:</strong> <code>pip install notebook</code></li>
-<li><strong>Streamlit port busy:</strong> Use <code>streamlit run app.py --server.port 8502</code></li>
-<li><strong>Model not found:</strong> Run <code>python scripts/train_model.py</code> first</li>
 </ul>
 
 <hr>
