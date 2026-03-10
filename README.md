@@ -264,13 +264,13 @@ Built a healthcare data analytics pipeline from raw data to an interactive Power
 <h2>🚀 Quick Start</h2>
 
 <pre>
-git clone healthcare-data-analytics
+git clone https://healthcare-data-analytics.git
 
 pip install pandas numpy matplotlib seaborn
 
 python scripts/data_cleaning.py
-
-jupyter notebook notebooks/healthcare_analysis.ipynb
+python scripts/eda_analysis.py
+python scripts/feature_engineering.py
 
 Open dashboard/healthcare_dashboard.pbix
 </pre>
