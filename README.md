@@ -23,15 +23,11 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 <hr>
 
 <h2>📊 Project Status</h2>
-
-<p>
-✅ <strong>Project Completed</strong>
-</p>
+<p>✅ <strong>Project Completed</strong></p>
 
 <hr>
 
 <h2>🚀 How to Run this Project</h2>
-
 <p>
 <a href="docs/how-to-run.md">📖 Complete Step-by-Step Guide</a>
 </p>
@@ -43,9 +39,7 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 <p><strong>Healthcare Cost Dashboard</strong></p>
 
 <img src="images/dashboard_overview1.png" width="800" alt="Dashboard 1">
-
 <br><br>
-
 <img src="images/dashboard_overview2.png" width="800" alt="Dashboard 2">
 
 <hr>
@@ -66,10 +60,11 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 
 <ul>
 <li>Data Cleaning using <strong>Python (Pandas)</strong></li>
-<li>Feature Engineering</li>
+<li>Feature Engineering (Encoding + Analytical Features)</li>
 <li>Exploratory Data Analysis (EDA)</li>
 <li>Data Visualization using <strong>Matplotlib</strong></li>
 <li>SQL Analytics using <strong>MySQL</strong></li>
+<li>Automated Insight Generation (Rule-Based)</li>
 <li>Business Insight Generation</li>
 <li>Interactive Dashboard Development using <strong>Power BI</strong></li>
 </ul>
@@ -95,7 +90,8 @@ healthcare-data-analytics/
 ├── scripts/
 │   ├── data_cleaning.py
 │   ├── feature_engineering.py
-│   └── eda_analysis.py
+│   ├── eda_analysis.py
+│   └── insight_generator.py
 │
 ├── sql/
 │   ├── create_database.sql
@@ -120,71 +116,84 @@ healthcare-data-analytics/
 <h2>🚀 Implementation Phases</h2>
 
 <h3>🟩 Phase 1 – Dataset Collection</h3>
-
-<p><strong>Objective:</strong> Understand healthcare dataset structure.</p>
-
 <ul>
 <li>Dataset obtained from Kaggle</li>
 <li>Dataset structure analysis</li>
 <li>Identification of missing values</li>
 <li>Definition of healthcare KPIs</li>
 </ul>
-
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
 <h3>🟨 Phase 2 – Data Cleaning & Preprocessing</h3>
-
-<p><strong>Objective:</strong> Prepare dataset for analysis.</p>
-
 <ul>
 <li>Checked missing values</li>
 <li>Removed duplicate records</li>
 <li>Verified dataset structure</li>
 <li>Exported cleaned dataset</li>
 </ul>
-
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
 <h3>🟦 Phase 3 – Feature Engineering & Exploratory Data Analysis</h3>
 
-<p><strong>Objective:</strong> Discover patterns and insights.</p>
-
+<h4>🔸 Feature Engineering</h4>
 <ul>
-<li>Create Age Groups (Young, Middle Age, Senior)</li>
-<li>Create BMI Categories</li>
-<li>Create Risk Level segmentation</li>
-<li>Analyze cost distribution</li>
-<li>Smoking vs non-smoking cost comparison</li>
-<li>BMI impact analysis</li>
+<li>Encoding categorical variables (Sex, Smoker)</li>
+<li>Create Age Groups (Young, Adult, Senior)</li>
+<li>Create BMI Categories (Underweight, Normal, Overweight, Obese)</li>
+<li>Create Family Size</li>
+<li>Create Risk Level Segmentation</li>
 </ul>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<h4>🔸 Univariate Analysis</h4>
+<ul>
+<li>Age Distribution</li>
+<li>BMI Distribution</li>
+<li>Charges Distribution</li>
+<li>Outlier Detection using Boxplots</li>
+</ul>
+
+<h4>🔸 Bivariate Analysis</h4>
+<ul>
+<li>Age vs Charges</li>
+<li>Smoker vs Charges</li>
+<li>Gender vs Charges</li>
+<li>Region vs Charges</li>
+</ul>
+
+<h4>🔸 Multivariate Analysis</h4>
+<ul>
+<li>Age + Smoker vs Charges</li>
+<li>BMI + Smoker vs Charges</li>
+<li>Family Size vs Charges</li>
+</ul>
+
+<h4>🔸 Correlation Analysis</h4>
+<ul>
+<li>Correlation Heatmap</li>
+<li>Identification of strong relationships</li>
+</ul>
+
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
 <h3>🟧 Phase 4 – SQL Analytics</h3>
-
-<p><strong>Objective:</strong> Generate business insights using SQL.</p>
-
 <ul>
-<li>Total healthcare revenue analysis</li>
-<li>Average treatment cost</li>
-<li>Region-wise revenue analysis</li>
-<li>Risk level cost comparison</li>
+<li>Average charges by region</li>
+<li>Smoker vs non-smoker cost comparison</li>
+<li>Age group-based analysis</li>
+<li>Top high-cost patients</li>
+<li>Advanced queries using CASE, GROUP BY, subqueries</li>
 </ul>
-
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
 <h3>🟥 Phase 5 – Power BI Dashboard</h3>
-
-<p><strong>Objective:</strong> Build an interactive dashboard.</p>
-
 <ul>
 <li>Total revenue KPI</li>
 <li>Average treatment cost KPI</li>
@@ -194,42 +203,58 @@ healthcare-data-analytics/
 <li>Region-wise revenue visualization</li>
 <li>Risk level segmentation</li>
 </ul>
+<p><strong>Status:</strong> ✅ Completed</p>
 
-<p><strong>Status:</strong> ✅ <strong>Completed</strong></p>
+<hr>
+
+<h2>🚀 Advanced Analytics Features (NEW 🔥)</h2>
+
+<h3>🔹 Automated Insight Generator</h3>
+<ul>
+<li>Rule-based system to generate insights automatically</li>
+<li>Identifies high-cost groups</li>
+<li>Compares smoker vs non-smoker costs</li>
+<li>Detects highest cost region</li>
+</ul>
+
+<h3>🔹 Percentage-Based Insights</h3>
+<ul>
+<li>Calculated % increase in smoker cost</li>
+<li>Compared cost differences across regions</li>
+</ul>
+
+<h3>🔹 Risk Group Identification</h3>
+<ul>
+<li>High Risk → Smoker + High BMI + Age > 50</li>
+<li>Medium Risk → Moderate conditions</li>
+<li>Low Risk → Healthy individuals</li>
+</ul>
+
+<h3>🔹 Business Insights</h3>
+<ul>
+<li>Smoking is the major cost-driving factor</li>
+<li>Obesity increases healthcare expenses</li>
+<li>Senior individuals contribute to higher costs</li>
+</ul>
+
+<h3>🔹 Recommendations</h3>
+<ul>
+<li>Promote smoking cessation programs</li>
+<li>Encourage healthy lifestyle</li>
+<li>Focus on preventive healthcare</li>
+</ul>
 
 <hr>
 
 <h2>🛠 Technical Stack</h2>
 
 <table border="1" cellpadding="8" cellspacing="0">
-<thead>
-<tr>
-<th>Category</th>
-<th>Tools</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Data Processing</td>
-<td>Python, Pandas, NumPy</td>
-</tr>
-<tr>
-<td>Visualization</td>
-<td>Matplotlib, Power BI</td>
-</tr>
-<tr>
-<td>Database</td>
-<td>MySQL</td>
-</tr>
-<tr>
-<td>Analysis</td>
-<td>Jupyter Notebook</td>
-</tr>
-<tr>
-<td>Version Control</td>
-<td>Git, GitHub</td>
-</tr>
-</tbody>
+<tr><th>Category</th><th>Tools</th></tr>
+<tr><td>Data Processing</td><td>Python, Pandas, NumPy</td></tr>
+<tr><td>Visualization</td><td>Matplotlib, Power BI</td></tr>
+<tr><td>Database</td><td>MySQL</td></tr>
+<tr><td>Analysis</td><td>Jupyter Notebook</td></tr>
+<tr><td>Version Control</td><td>Git, GitHub</td></tr>
 </table>
 
 <hr>
@@ -241,13 +266,13 @@ Healthcare Dataset (CSV)
         ↓
 Data Cleaning (Python / Pandas)
         ↓
-Exploratory Data Analysis (Matplotlib)
+EDA + Feature Engineering
         ↓
-SQL Analytics (MySQL)
+SQL Analytics
         ↓
 Power BI Dashboard
         ↓
-Healthcare Business Insights
+Automated Insights + Business Recommendations
 </pre>
 
 <hr>
@@ -256,7 +281,7 @@ Healthcare Business Insights
 
 <p>
 <strong>
-Built a healthcare data analytics pipeline from raw data to an interactive Power BI dashboard. Implemented data cleaning with Python/Pandas, performed exploratory analysis, created SQL queries for healthcare insights, and developed dashboard visualizations showing cost differences across smoking status, BMI categories, age groups, and regions.
+Developed an end-to-end healthcare data analytics system integrating Python, SQL, and Power BI. Performed data cleaning, feature engineering, and advanced exploratory analysis. Built a rule-based automated insight generator to extract key patterns and designed an interactive dashboard to support business decision-making.
 </strong>
 </p>
 
