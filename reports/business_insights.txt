@@ -1,0 +1,22 @@
+📊 BUSINESS INSIGHTS – HEALTHCARE ANALYSIS
+
+1. Smoking is the strongest cost driver:
+Smokers incur nearly 3x higher medical expenses compared to non-smokers.
+
+2. BMI significantly impacts healthcare cost:
+Patients with BMI > 30 (Obese) tend to have higher insurance charges.
+
+3. Medium Risk group dominates:
+Majority of patients fall under Medium Risk due to either smoking or high BMI.
+
+4. High Risk group is small but critical:
+A small percentage of patients (smoker + high BMI + age > 50) contribute heavily to total cost.
+
+5. Regional variation exists:
+Southeast region shows the highest healthcare costs, indicating possible lifestyle or environmental factors.
+
+6. Healthcare cost increases with age:
+Older individuals contribute more to cumulative medical expenses.
+
+7. Cost distribution is skewed:
+A small group of patients contributes to a large portion of total healthcare spending.

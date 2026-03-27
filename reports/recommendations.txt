@@ -1,0 +1,22 @@
+📌 RECOMMENDATIONS – HEALTHCARE ANALYSIS
+
+1. Implement Smoking Reduction Programs:
+Since smokers incur significantly higher healthcare costs (~280% more), insurance companies and healthcare providers should promote anti-smoking campaigns and wellness programs.
+
+2. Encourage Healthy BMI:
+Introduce fitness programs, diet plans, and awareness campaigns to reduce obesity levels, as high BMI is strongly linked to increased medical expenses.
+
+3. Focus on High-Risk Patients:
+Closely monitor and provide preventive care for high-risk individuals (smoker + high BMI + age > 50) to reduce future healthcare costs.
+
+4. Region-Based Strategy:
+The Southeast region shows the highest healthcare costs. Targeted interventions such as lifestyle awareness programs and better healthcare access should be implemented.
+
+5. Preventive Healthcare Investment:
+Encourage regular health checkups and early diagnosis to reduce long-term treatment costs.
+
+6. Personalized Insurance Plans:
+Design dynamic premium models based on risk categories (Low, Medium, High Risk) for better pricing and customer segmentation.
+
+7. Awareness Campaigns:
+Educate people about the impact of smoking, obesity, and aging on healthcare costs to promote healthier lifestyles.

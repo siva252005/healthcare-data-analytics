@@ -1,0 +1,29 @@
+📊 VISUALIZATION SUMMARY – HEALTHCARE ANALYSIS
+
+1. Age vs Charges (Line Plot):
+Shows that healthcare costs increase with age.
+Older individuals tend to have higher medical expenses.
+
+2. BMI vs Charges (Scatter Plot):
+Indicates a positive relationship between BMI and charges.
+Higher BMI (especially >30) leads to increased costs.
+
+3. Smoker vs Charges (Box Plot):
+Clearly shows smokers have significantly higher charges.
+Smoking is the strongest cost-driving factor.
+
+4. Region vs Charges (Bar Chart):
+Highlights variation in healthcare costs across regions.
+Southeast region has the highest average charges.
+
+5. Children vs Charges (Box Plot):
+Shows slight increase in cost with more children.
+However, impact is less compared to smoking and BMI.
+
+6. Risk Category Distribution (Bar Chart):
+Majority of patients fall under Medium Risk.
+High Risk group is smaller but contributes heavily to cost.
+
+7. Charges Distribution (Histogram):
+Shows right-skewed distribution.
+Few patients incur very high costs (outliers).
