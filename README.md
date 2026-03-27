@@ -177,7 +177,7 @@ healthcare-data-analytics/
 <li>Identification of strong relationships</li>
 </ul>
 
-<p><strong>Status:</strong> progress ⏳</p>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
@@ -189,7 +189,7 @@ healthcare-data-analytics/
 <li>Top high-cost patients</li>
 <li>Advanced queries using CASE, GROUP BY, subqueries</li>
 </ul>
-<p><strong>Status:</strong> strong> progress ⏳</p>
+<p><strong>Status:</strong> strong> ✅ Completed</p>
 
 <hr>
 
