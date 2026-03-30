@@ -3,22 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Healthcare Data Analytics & Insurance Cost Dashboard</title>
 </head>
 <body>
 
 <h1>🩺 Healthcare Data Analytics & Insurance Cost Dashboard</h1>
 
-<p>
-This project analyzes healthcare insurance data to identify key factors influencing medical costs and provide actionable business insights.
-</p>
+<p>This project analyzes healthcare insurance data to understand the factors influencing medical costs.</p>
 
-<p>
-Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw healthcare datasets into meaningful insights through a complete analytics pipeline:
-</p>
+<p>Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw healthcare datasets into actionable insights through a structured analytics workflow:</p>
 
-<p>
-<strong>Data Collection → Data Cleaning → Feature Engineering → EDA → SQL Analytics → Power BI Dashboard → Automated Insights</strong>
-</p>
+<p><strong>Data Collection → Data Cleaning → Feature Engineering → Exploratory Data Analysis → SQL Analytics → Power BI Dashboard</strong></p>
 
 <hr>
 
@@ -28,9 +23,7 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 <hr>
 
 <h2>🚀 How to Run this Project</h2>
-<p>
-<a href="docs/how-to-run.md">📖 Complete Step-by-Step Guide</a>
-</p>
+<p><a href="docs/how-to-run.md">📖 Complete Step-by-Step Guide</a></p>
 
 <hr>
 
@@ -38,48 +31,21 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 
 <p><strong>Healthcare Cost Dashboard</strong></p>
 
-<img src="images/dashboard_overview1.png" width="800">
+<img src="images/dashboard_overview1.png" width="800" alt="Dashboard 1">
 <br><br>
-<img src="images/dashboard_overview2.png" width="800">
-
-<hr>
-
-<h2>📊 Key Performance Indicators (KPIs)</h2>
-
-<ul>
-<li>Total Patients: <strong>1338+</strong></li>
-<li>Average Healthcare Cost: <strong>~$13,000</strong></li>
-<li>Average BMI: <strong>~30</strong></li>
-<li>High-Risk Patients: <strong>~8–10%</strong></li>
-<li>Medium Risk Group: <strong>Majority population</strong></li>
-</ul>
+<img src="images/dashboard_overview2.png" width="800" alt="Dashboard 2">
 
 <hr>
 
 <h2>📈 Key Insights</h2>
 
 <ul>
-<li>Smokers incur <strong>~280% higher healthcare costs</strong> than non-smokers</li>
-<li>High BMI significantly increases medical expenses</li>
-<li>Healthcare costs increase with age</li>
-<li><strong>Southeast region</strong> has the highest medical charges</li>
-<li>Majority of patients fall under <strong>Medium Risk category</strong></li>
-<li>High-risk patients contribute disproportionately to total cost</li>
+<li>Smoking significantly increases healthcare insurance charges</li>
+<li>Patients categorized as <strong>High Risk</strong> have the highest treatment costs</li>
+<li>The <strong>Obese BMI category</strong> shows higher average medical expenses</li>
+<li><strong>Senior patients</strong> tend to have higher treatment costs</li>
+<li>The <strong>Southeast region</strong> generates the highest healthcare revenue</li>
 </ul>
-
-<hr>
-
-<h2>📈 Sample Automated Insights</h2>
-
-<pre>
-📊 AUTOMATED INSIGHTS:
-
-1. Smokers have higher average charges (~32050) vs non-smokers (~8434)
-2. Southeast region has highest healthcare cost
-3. Most patients fall under Medium Risk category
-4. Smokers spend ~280% more on healthcare
-5. Southeast region costs ~19% more than lowest region
-</pre>
 
 <hr>
 
@@ -87,11 +53,12 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 
 <ul>
 <li>Data Cleaning using <strong>Python (Pandas)</strong></li>
-<li>Feature Engineering & Data Transformation</li>
+<li>Feature Engineering (Encoding + Analytical Features)</li>
 <li>Exploratory Data Analysis (EDA)</li>
-<li>SQL Analytics (CASE, GROUP BY, Subqueries)</li>
-<li>Automated Insight Generation (Python)</li>
-<li>Business Insight Development</li>
+<li>Data Visualization using <strong>Matplotlib</strong></li>
+<li>SQL Analytics using <strong>MySQL</strong></li>
+<li>Automated Insight Generation (Rule-Based)</li>
+<li>Business Insight Generation</li>
 <li>Interactive Dashboard Development using <strong>Power BI</strong></li>
 </ul>
 
@@ -102,95 +69,179 @@ Using <strong>Python, SQL, and Power BI</strong>, the project transforms raw hea
 <pre>
 healthcare-data-analytics/
 │
+├── README.md
+│
 ├── data/
+│   ├── raw/
+│   │   └── healthcare_raw.csv
+│   └── processed/
+│       └── healthcare_cleaned.csv
+│
 ├── notebooks/
+│   └── healthcare_analysis.ipynb
+│
 ├── scripts/
+│   ├── data_cleaning.py
+│   ├── feature_engineering.py
+│   ├── eda_analysis.py
+│   └── insight_generator.py
+│
 ├── sql/
+│   ├── create_database.sql
+│   ├── create_tables.sql
+│   └── healthcare_queries.sql
+│
 ├── dashboard/
+│   └── healthcare_dashboard.pbix
+│
 ├── images/
+│   ├── dashboard_overview1.png
+│   └── dashboard_overview2.png
+│
 └── docs/
+    ├── project_overview.md
+    ├── dataset_description.md
+    └── methodology.md
 </pre>
 
 <hr>
 
 <h2>🚀 Implementation Phases</h2>
 
-<h3>🟩 Phase 1 – Data Collection</h3>
+<h3>🟩 Phase 1 – Dataset Collection</h3>
 <ul>
 <li>Dataset obtained from Kaggle</li>
-<li>Understanding dataset structure</li>
-<li>Defined key metrics</li>
+<li>Dataset structure analysis</li>
+<li>Identification of missing values</li>
+<li>Definition of healthcare KPIs</li>
+</ul>
+<p><strong>Status:</strong> ✅ Completed</p>
+
+<hr>
+
+<h3>🟨 Phase 2 – Data Cleaning & Preprocessing</h3>
+<ul>
+<li>Checked missing values</li>
+<li>Removed duplicate records</li>
+<li>Verified dataset structure</li>
+<li>Exported cleaned dataset</li>
+</ul>
+<p><strong>Status:</strong> ✅ Completed</p>
+
+<hr>
+
+<h3>🟦 Phase 3 – Feature Engineering & Exploratory Data Analysis</h3>
+
+<h4>🔸 Feature Engineering</h4>
+<ul>
+<li>Encoding categorical variables (Sex, Smoker)</li>
+<li>Create Age Groups (Young, Adult, Senior)</li>
+<li>Create BMI Categories (Underweight, Normal, Overweight, Obese)</li>
+<li>Create Family Size</li>
+<li>Create Risk Level Segmentation</li>
 </ul>
 
-<h3>🟨 Phase 2 – Data Cleaning</h3>
+<h4>🔸 Univariate Analysis</h4>
 <ul>
-<li>Handled missing values</li>
-<li>Removed duplicates</li>
-<li>Prepared clean dataset</li>
+<li>Age Distribution</li>
+<li>BMI Distribution</li>
+<li>Charges Distribution</li>
+<li>Outlier Detection using Boxplots</li>
 </ul>
 
-<h3>🟦 Phase 3 – Feature Engineering & EDA</h3>
+<h4>🔸 Bivariate Analysis</h4>
 <ul>
-<li>Created age groups & BMI categories</li>
-<li>Performed univariate & bivariate analysis</li>
-<li>Identified correlations</li>
+<li>Age vs Charges</li>
+<li>Smoker vs Charges</li>
+<li>Gender vs Charges</li>
+<li>Region vs Charges</li>
 </ul>
 
-<h3>🟧 Phase 4 – SQL Analytics</h3>
+<h4>🔸 Multivariate Analysis</h4>
 <ul>
-<li>Cost comparison queries</li>
-<li>Risk segmentation using CASE</li>
-<li>Advanced analytical queries</li>
+<li>Age + Smoker vs Charges</li>
+<li>BMI + Smoker vs Charges</li>
+<li>Family Size vs Charges</li>
 </ul>
 
-<h3>🟥 Phase 5 – Power BI Dashboard</h3>
+<h4>🔸 Correlation Analysis</h4>
 <ul>
-<li>Built KPI cards</li>
-<li>Visualized cost drivers</li>
-<li>Created risk segmentation charts</li>
+<li>Correlation Heatmap</li>
+<li>Identification of strong relationships</li>
 </ul>
 
 <p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h2>⚠️ Challenges & Solutions</h2>
-
+<h3>🟧 Phase 4 – SQL Analytics</h3>
 <ul>
-<li><strong>Encoded Data (0/1):</strong> Converted to readable labels using DAX</li>
-<li><strong>One-Hot Encoded Regions:</strong> Created unified Region column</li>
-<li><strong>Data Type Mismatch:</strong> Handled using VALUE() function</li>
-<li><strong>Visualization Issues:</strong> Corrected aggregation and axis setup</li>
+<li>Average charges by region</li>
+<li>Smoker vs non-smoker cost comparison</li>
+<li>Age group-based analysis</li>
+<li>Top high-cost patients</li>
+<li>Advanced queries using CASE, GROUP BY, subqueries</li>
 </ul>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h2>💡 Recommendations</h2>
-
+<h3>🟥 Phase 5 – Power BI Dashboard</h3>
 <ul>
-<li>Promote anti-smoking programs</li>
-<li>Encourage healthy BMI</li>
-<li>Focus on high-risk patient monitoring</li>
-<li>Implement region-specific healthcare strategies</li>
-<li>Adopt risk-based insurance pricing</li>
+<li>Total revenue KPI</li>
+<li>Average treatment cost KPI</li>
+<li>Smoking cost comparison</li>
+<li>Age group analysis</li>
+<li>BMI category analysis</li>
+<li>Region-wise revenue visualization</li>
+<li>Risk level segmentation</li>
 </ul>
+<p><strong>Status:</strong> ✅ Completed</p>
 
 <hr>
 
-<h2>🚀 Future Improvements</h2>
+<h2>🚀 Advanced Analytics Features (NEW 🔥)</h2>
 
+<h3>🔹 Automated Insight Generator</h3>
 <ul>
-<li>Build Machine Learning model for cost prediction</li>
-<li>Deploy dashboard using Power BI Service</li>
-<li>Create web app using Streamlit</li>
-<li>Integrate real-time healthcare data</li>
+<li>Rule-based system to generate insights automatically</li>
+<li>Identifies high-cost groups</li>
+<li>Compares smoker vs non-smoker costs</li>
+<li>Detects highest cost region</li>
+</ul>
+
+<h3>🔹 Percentage-Based Insights</h3>
+<ul>
+<li>Calculated % increase in smoker cost</li>
+<li>Compared cost differences across regions</li>
+</ul>
+
+<h3>🔹 Risk Group Identification</h3>
+<ul>
+<li>High Risk → Smoker + High BMI + Age > 50</li>
+<li>Medium Risk → Moderate conditions</li>
+<li>Low Risk → Healthy individuals</li>
+</ul>
+
+<h3>🔹 Business Insights</h3>
+<ul>
+<li>Smoking is the major cost-driving factor</li>
+<li>Obesity increases healthcare expenses</li>
+<li>Senior individuals contribute to higher costs</li>
+</ul>
+
+<h3>🔹 Recommendations</h3>
+<ul>
+<li>Promote smoking cessation programs</li>
+<li>Encourage healthy lifestyle</li>
+<li>Focus on preventive healthcare</li>
 </ul>
 
 <hr>
 
 <h2>🛠 Technical Stack</h2>
 
-<table border="1" cellpadding="8">
+<table border="1" cellpadding="8" cellspacing="0">
 <tr><th>Category</th><th>Tools</th></tr>
 <tr><td>Data Processing</td><td>Python, Pandas, NumPy</td></tr>
 <tr><td>Visualization</td><td>Matplotlib, Power BI</td></tr>
@@ -204,22 +255,102 @@ healthcare-data-analytics/
 <h2>🎯 Workflow Pipeline</h2>
 
 <pre>
-Dataset → Cleaning → EDA → SQL → Dashboard → Insights
+Healthcare Dataset (CSV)
+        ↓
+Data Cleaning (Python / Pandas)
+        ↓
+EDA + Feature Engineering
+        ↓
+SQL Analytics
+        ↓
+Power BI Dashboard
+        ↓
+Automated Insights + Business Recommendations
 </pre>
 
 <hr>
 
 <h2>💼 Interview Talking Point</h2>
 
-<p>
-<strong>
-Developed an end-to-end healthcare data analytics project using Python, SQL, and Power BI. Built automated insight generation and an interactive dashboard to identify key cost drivers and support business decision-making.
-</strong>
-</p>
+<p><strong>Developed an end-to-end healthcare data analytics system integrating Python, SQL, and Power BI. Performed data cleaning, feature engineering, and advanced exploratory analysis. Built a rule-based automated insight generator to extract key patterns and designed an interactive dashboard to support business decision-making.</strong></p>
 
 <hr>
 
-<p><strong>Healthcare Data Analytics Project 🩺📊</strong></p>
+<h2>📊 Key Performance Indicators (KPIs)</h2>
+
+<ul>
+<li>Total Patients: 1338+</li>
+<li>Average Healthcare Cost: ~$13,000</li>
+<li>Average BMI: ~30</li>
+<li>High-Risk Patients: ~8–10%</li>
+<li>Medium-Risk Patients: Majority group</li>
+</ul>
+
+<hr>
+
+<h2>📈 Sample Automated Insights Output</h2>
+<p>📊 <strong>AUTOMATED INSIGHTS:</strong></p>
+<ul>
+<li>Smokers have higher average charges (~32050) vs non-smokers (~8434)</li>
+<li>Southeast region has highest healthcare cost</li>
+<li>Most patients fall under Medium Risk category</li>
+<li>Smokers spend ~280% more on healthcare than non-smokers</li>
+<li>Southeast region costs ~19% more than lowest-cost region</li>
+<li>Majority population belongs to Medium Risk category</li>
+</ul>
+
+<hr>
+
+<h2>⚠️ Challenges & Solutions</h2>
+
+<h3>🔹 Challenge 1: Encoded Data (0/1 instead of Yes/No)</h3>
+<p><strong>Solution:</strong> Converted using DAX in Power BI</p>
+
+<h3>🔹 Challenge 2: One-Hot Encoded Region Columns</h3>
+<p><strong>Solution:</strong> Created a unified "Region Label" column</p>
+
+<h3>🔹 Challenge 3: Data Type Mismatch (Text vs Integer)</h3>
+<p><strong>Solution:</strong> Used VALUE() function for proper conversion</p>
+
+<h3>🔹 Challenge 4: Scatter Plot Configuration Issues</h3>
+<p><strong>Solution:</strong> Corrected axis assignment and removed aggregation</p>
+
+<hr>
+
+<h2>🚀 Future Improvements</h2>
+
+<ul>
+<li>Add Machine Learning model for cost prediction</li>
+<li>Deploy dashboard using Power BI Service</li>
+<li>Build web app using Streamlit</li>
+<li>Integrate real-time healthcare data</li>
+<li>Add advanced statistical analysis</li>
+</ul>
+
+<hr>
+
+<h2>⭐ Project Highlights</h2>
+
+<ul>
+<li>End-to-End Data Analytics Pipeline</li>
+<li>Real-world healthcare dataset</li>
+<li>Automated Insight Generation (Python)</li>
+<li>Advanced SQL Analysis</li>
+<li>Interactive Power BI Dashboard</li>
+<li>Business Recommendations</li>
+</ul>
+
+<hr>
+
+<p><strong>🔥 FINAL RESULT</strong><br>
+✔ Beginner-friendly<br>
+✔ Recruiter-friendly<br>
+✔ ATS-friendly<br>
+✔ GitHub standout project</p>
+
+<p><strong>💼 FINAL INTERVIEW IMPACT</strong><br>
+👉 With this README + dashboard, you can confidently say:<br>
+<em>"I built an end-to-end healthcare analytics solution with automated insights, SQL analysis, and an interactive Power BI dashboard."</em></p>
 
 </body>
 </html>
