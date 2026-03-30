@@ -34,6 +34,8 @@
 <img src="images/dashboard_overview1.png" width="800" alt="Dashboard 1">
 <br><br>
 <img src="images/dashboard_overview2.png" width="800" alt="Dashboard 2">
+<img src="images/dashboard_overview3.png" width="800" alt="Dashboard 3">
+<br>
 
 <hr>
 
