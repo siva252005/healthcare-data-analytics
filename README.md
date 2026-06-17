@@ -88,8 +88,6 @@ healthcare-data-analytics/
 │   └── insight_generator.py
 │
 ├── sql/
-│   ├── create_database.sql
-│   ├── create_tables.sql
 │   └── healthcare_queries.sql
 │
 ├── dashboard/
