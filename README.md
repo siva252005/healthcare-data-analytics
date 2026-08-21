@@ -30,9 +30,9 @@
 
 <p><strong>Healthcare Cost Dashboard</strong></p>
 
-<img src="images/dashboard_overview1.png" width="800" alt="Dashboard 1">
+<img src="images/Executive Overview.png" width="800" alt="Dashboard 1">
 <br><br>
-<img src="images/dashboard_overview4.png" width="800" alt="Dashboard 2">
+<img src="images/Patient & Cost Analysis.png" width="800" alt="Dashboard 2">
 <br>
 
 <hr>
